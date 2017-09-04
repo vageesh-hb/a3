@@ -1,0 +1,147 @@
+body {
+      min-width: 630px;
+    }
+
+    #container {
+      padding-left: 200px;
+      padding-right: 190px;
+    }
+    
+    #container .column {
+      position: relative;
+      float: left;
+    }
+    
+    #center {
+      padding: 10px 20px;
+      width: 100%;
+    }
+    
+    #left {
+      width: 180px;
+      padding: 0 10px;
+      right: 240px;
+      margin-left: -100%;
+    }
+    
+    #right {
+      width: 130px;
+      padding: 0 10px;
+      margin-right: -100%;
+    }
+    
+    #footer {
+      clear: both;
+    }
+    
+    * html #left {
+      left: 150px;
+    }
+    #container {
+      overflow: hidden;
+    }
+
+    #container .column {
+      padding-bottom: 1001em;
+         }
+    * html body {
+      overflow: hidden;
+    }
+    
+    * html #footer-wrapper {
+      float: left;
+      position: relative;
+      width: 100%;
+      padding-bottom: 10010px;
+      margin-bottom: -10000px;
+      background: #fff;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul a {
+      color: darkgreen;
+      text-decoration: none;
+    }
+    p {
+      color: #555;
+    }
+    #header, #footer {
+      font-size: large;
+      padding: 0.3em;
+      background: #ff9a00;
+      border: 1px #000 solid;
+    }
+
+    #left {
+      background: #92c67b;
+      border-right: 1px #000 solid;
+      height: auto;
+      padding-bottom: 0px;
+    }
+    
+    #right {
+      background: #F7FDEB;
+
+    }
+
+    #center {
+      background: #fff;
+    }
+
+    #container .column {
+      padding-top: 1em;
+    }
+
+   
+    #footer{
+
+         position:fixed;
+   left:0px;
+   bottom:0px;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   padding-bottom: 20px;
+    }
+
+    .wrap{
+        float: right;
+        margin: 10px;
+    }
+
+    .post-container {
+    margin: 20px 20px 0 0;  
+    
+    overflow: auto
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    padding-left: 160px;
+    width: 30%;
+}table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
